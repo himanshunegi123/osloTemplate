@@ -1,0 +1,341 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+.mySlides {display: none;}
+body{
+    margin:0;
+    padding: 0;
+}
+.topnav{
+    background-color: white;
+    padding: 8px 16px;
+    overflow: hidden;
+    z-index: 1;
+}
+.oslo{
+    float: left;
+    display: block;
+    font-size: 50px;
+    color: rgb(255, 0, 98);
+    padding: 0px 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-weight: lighter;
+    padding-bottom: 5px;
+    font-weight: 400;
+   
+}
+
+.links{
+    margin-top: 20px;
+    display: block;
+    float: right;
+    margin-right: 40px;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    padding: 16px 8px;
+    font-family: sans-serif;
+}
+.signupbtn{
+    border-radius: 30px;
+    width:150px;
+    height:50px;
+    font-family: sans-serif;
+    border: none;
+    padding: 5px 20px;
+    font-size: 20px;
+    color: white;
+    margin-left: 15px; 
+    background-color: rgb(242, 10, 111);
+}
+.signupbtn:hover {
+    cursor: ;
+}
+
+.slideshow-container img{
+    opacity: 0.5;
+    height: 510px;
+    width: 100%;  
+    background-size: cover;   
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    width: 96%;
+    line-height:1.6;
+    transform: translate(-50%, -50%);
+    text-align: center;    
+}
+#slide{  
+    width: 100%;
+ }
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: 0px;
+    background-color: rgb(234, 117, 175);
+  }
+  .mySlides{
+      display: none;
+  }
+  .prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+.dot {
+    position: relative;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(255, 255, 253);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active, .dot:hover{
+    background-color: #f30d0d;
+  }
+  .fade {
+    -webkit-animation-name: fade;
+	-webkit-animation-duration: 2s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  .slider-button{
+      position: absolute;
+      top: 97%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+ 
+.about{
+    padding: 8px 16px;
+    display: inline-block;
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+.para1{
+    float: left;
+    padding-left: 16px;
+    width: 40%;
+    text-align: left;
+  
+}
+.aboutimg{
+    float: right;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.aboutimg img{
+    border-radius: 70px 190px 190px 70px;
+    border: 5px solid rgb(158, 10, 84);
+}
+.features{
+ width: 80%;
+ margin-top: 10px;
+ padding-top: 30px;
+ margin-left: 10%;
+ margin-right: auto;
+ text-align: center;
+ display: inline-block;
+}
+.storage{
+    width: 30%;
+    float: left;
+    padding: 40px 15px; 
+}
+.running{
+    width: 30%;
+    float: left;
+    padding: 40px 15px;
+}
+.group{
+    width: 30%;
+    float: left;
+    padding: 40px 15px;   
+}
+.head2{
+   font-size: 30px;
+   font-weight: lighter;
+}
+.featurepara{
+   display:inline-block;
+   width: 60%;
+   margin-left: 20%;
+   margin-right: 20%;
+   padding-top: 50px;
+   padding-bottom: 60px;
+  
+}
+.para2img{
+ float: left;
+ padding: 10px 10px;
+ padding-top: 30px;
+ 
+}
+.para2img img{
+   height: 250px;
+   border-radius: 70px 190px 190px 70px;
+    border: 5px solid rgb(158, 10, 84);
+   
+}
+.para2{
+   float: right;
+   padding-left: 30px;
+   width: 40%;
+   text-align: left;
+}
+.dashboard{
+ text-align: center;
+ background-color: rgb(248, 239, 239);
+ padding: 40px 0px
+}
+.dashboardimg{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+}
+.review{
+   text-align: center;
+   display: inline-block;
+   padding: 40px 0px;
+}
+.review1{
+ float: left;
+ width:20%;
+ margin-left: 10%;
+ margin-right: auto;
+ padding: 25px 25px;
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ border-radius: 10px;
+}
+.reviewimg{
+   height: auto;
+   width: 100px;
+   border-radius: 50%;
+}
+.endsection{
+   background-color: rgb(158, 10, 84);
+   display: inline-block;
+   width: 100%;
+}
+.signup{
+   border-radius: 20px;
+   float:right;
+   font-weight:550;
+   color: rgb(158, 10, 84);
+   border: none;
+   margin-top: 40px;
+   margin-right: 80px;
+   padding: 5px 10px;
+}
+.signupform{
+   position: relative;
+   background-color: rgb(53, 46, 46);
+   padding: 0px;
+   margin: 0px;
+
+}
+.centeredform{
+   position:absolute;
+   top: 50%;
+   left: 45%;
+   transform: translate(-50%, -50%);
+   border: none;
+   padding: 10px 20px;
+}
+.signupintro{
+   width: 50%;
+   float: left;
+   padding: 5px 3px;
+   color: white;
+   font-weight: lighter;
+}
+
+.formsection{
+    width: 20%;
+    float: right;
+    color: white;
+    margin-top: 80px;
+}
+.formsection input{
+   background-color: rgb(221, 210, 210);
+   border: none;
+   border-radius: 5px;
+   width: 250px;
+   padding: 5px 8px;
+   margin-bottom: 20px;
+}
+.formsection b{
+   color: rgb(158, 10, 84);
+}
+.footer{
+   display: inline-block;
+   width: 100%;
+  
+}
+.iconcontact{
+   float: left;
+   width: 30%;
+   margin-top: 3%;
+   margin-left: 5%;
+   padding: 20px;
+}
+.iconcontact i{
+   padding: 0px 10px;
+}
+.bottomoslo{
+   float: left;
+   text-align: center;
+   width: 30%;
+   padding: 15px 0px;
+}
+.footerlinks{
+   float: left;
+   display: block;
+   width: 30%;
+   margin-right: 10px;
+   padding: 10px;
+}
+
+.flink{
+   text-decoration: none;
+   padding: 20px 15px; 
+   margin-top: 20px;;
+   color: rgb(68, 64, 64)
+
+}
